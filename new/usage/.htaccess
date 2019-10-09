@@ -1,0 +1,7 @@
+AuthUserFile /www/htdocs/w0070843//tools/rhea_brown/usage//.htpasswd
+AuthGroupFile /dev/null
+AuthName ByPassword
+AuthType Basic
+<Limit GET POST>
+require user w0070843
+</Limit>
